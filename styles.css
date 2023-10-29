@@ -39,3 +39,21 @@
     font-family: 'Indie Flower', cursive;
   
   }
+  div#btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: #4ECCA3;
+    font-weight: bold;
+    font-family: 'Indie Flower', cursive;
+    text-shadow: 1px 0 #232931;
+    cursor: pointer;
+    margin-top: 4%;
+  }
+  
+  div#btn button{
+    background-color: antiquewhite;
+    width: fit-content;
+    padding: 10px 20px;
+  }

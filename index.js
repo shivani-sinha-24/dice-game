@@ -86,6 +86,7 @@ resultOfDices();
 //     document.querySelector("h1").innerHTML="Player 2 wins! 🚩"
 // }
 
-
+const btn = document.getElementById("btn")
+btn.addEventListener("click",()=>window.location.reload())
 
 
